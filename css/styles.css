@@ -16,6 +16,11 @@
 .list {
   list-style: none;
 }
+
+.current {
+  color: var(--accent-color);
+}
+
 /* Removing line spacing from images for index.html */
 img {
   display: block;
@@ -133,6 +138,7 @@ body {
   background-color: var(--bacground-text-color-theme-dark);
 }
 
+/* Buttons css */
 .open-btn {
   /* font-family: "Roboto", sans-serif; */
   font-weight: 700;
@@ -142,6 +148,10 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+}
+
+.open-btn:hover,
+.open-btn:focus {
   color: var(--primary-text-color-theme-dark);
   background-color: var(--accent-color);
 }
@@ -246,4 +256,24 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color-theme-dark);
+}
+
+/* Portfolio tab css */
+.portfolio-header {
+  /* font-family: 'Roboto', sans-serif; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color-theme-light);
+}
+.portfolio-href {
+  /* font-family: 'Roboto', sans-serif; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secodary-text-color-theme-light);
 }
