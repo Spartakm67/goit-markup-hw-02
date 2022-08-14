@@ -17,7 +17,8 @@
   list-style: none;
 }
 
-.current {
+/* Opened tab effect*/
+.page-nav .link.current {
   color: var(--accent-color);
 }
 
