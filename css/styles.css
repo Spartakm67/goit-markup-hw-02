@@ -9,7 +9,8 @@
 }
 
 /* Text underlining remuving*/
-.link {
+.link,
+.list-portfolio {
   text-decoration: none;
 }
 
