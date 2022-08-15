@@ -24,6 +24,7 @@
   color: var(--accent-color);
 }
 
+/* Opened tab effect for buttons*/
 .open-btn.current {
   color: #ffffff;
   background-color: #2196f3;
